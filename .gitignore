@@ -72,6 +72,10 @@ frontend/dist/
 desktop/node_modules/
 desktop/dist/
 src/openjarvis/server/static/
+# Downloaded sidecar binaries — platform-specific, not committed (mirrors
+# frontend/src-tauri/binaries/.gitignore; desktop/ is superseded by
+# frontend/src-tauri but this file is still tracked there today, #246/#338)
+desktop/src-tauri/binaries/ollama-*
 
 # Desktop (Tauri)
 frontend/src-tauri/target/
